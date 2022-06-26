@@ -1,4 +1,8 @@
-﻿Console.WriteLine("Введите номер дня недели: ");
+﻿//Напишите программу, которая будет выдавать название дня недели по заданному номеру.
+//3 -> Среда
+//5 -> Пятница
+
+Console.WriteLine("Введите номер дня недели: ");
 int dayweek = Convert.ToInt32(Console.ReadLine());
 switch (dayweek)
 {
